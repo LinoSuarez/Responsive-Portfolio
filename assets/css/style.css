@@ -1,0 +1,161 @@
+html {
+    background: url('../images/bk2.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Lora', serif;
+    letter-spacing: .25px;
+}
+
+
+#header {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    opacity: .965;
+    height: 65px;
+    top:0;
+
+    width: 100%;
+    box-shadow: 0px 0px 20px -8px #888888;
+
+    
+    /* margin-top: 35px; */
+    
+}
+h1 {
+    font-size: 30;
+    color: rgb(255, 255, 255);
+}
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(240, 149, 3);
+}
+#name {
+    position: absolute;
+    left: 105px;
+    top:0;
+    height: 48px;
+    width: 200px;
+    background-color: rgb(255, 165, 0);
+    padding-top: 17px;
+    text-align: center;
+
+    box-shadow: rgb(255, 159, 0);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.096);
+}
+#menuItems {
+    position: absolute;
+    left: 650px;
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: 65px; 
+
+}
+p {
+    padding-bottom: 7px;
+}
+#navButtons {
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 17px;
+    
+}
+.separator {
+    border-right: 1px solid rgb(221, 221, 221);
+}
+#content {
+    line-height: 20px;
+    color: rgb(41, 41, 41);
+}
+#leftBox {
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    height: auto;
+    width: 450px;
+
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+}
+#rightBox {
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 570px;
+    height: auto;
+    width: 325px;
+
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    text-align: center;
+}
+#flagImg {
+    height: 150px;
+    width: 150px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    float: left;
+}
+#logo {
+    height: 75px;
+    width: 75px;
+    padding:5px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    border-top: 6px solid rgb(255, 165, 0);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px; 
+    color: rgb(41, 41, 41);
+}
+input {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    margin-bottom: 5px;
+}
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    margin-bottom: 10px;
+}
+button {
+    height: 30px;
+    width: 100%;
+    border: 0px solid rgba(0, 0, 0, 0.11);
+    border-radius: 0;
+    background-color: rgb(255, 165, 0);
+    box-shadow: 0px 0px 2px 0px rgb(170, 108, 2);
+    font-weight: bold;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.068);
+    font-size: 13px;
+    color: rgb(56, 56, 56);
+
+}
+.portfolioImgs {
+    float: left;
+    height: 150px;
+    width: 219px;
+    padding-bottom: 12px;
+}
+.leftImg {
+    padding-right: 12px;
+}
+.lastImg {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+}
